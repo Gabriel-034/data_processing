@@ -1,0 +1,16 @@
+connections:
+  - conn_id: httpdata_nginx_intrusion
+    conn_type: http
+    host: httpdata_nginx_intrusion
+    port: 80
+    schema: ""
+    login: ""
+    password: ""
+
+  - conn_id: datawarehouse
+    conn_type: postgres
+    host: postgres
+    port: 5432
+    schema: datawarehouse
+    login: airflow
+    password: airflow
